@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <!-- <a href="https://www.freepik.com/free-vector/gamer-playing-with-computer_4911346.htm#query=designer%20png&position=10&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik -->
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-color: rgb(102, 175, 238);
+            color: rgb(0, 79, 148);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(165, 213, 255);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(0, 79, 148);
+
+        }
+
+        nav ul li a:hover {
+            color: white;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstsec>div {
+            width: 34%;
+
+        }
+
+        .leftsec {
+            font-size: 2rem;
+            color: #E0F4FC;
+            font-weight: 500;
+
+        }
+
+        .rightsec img {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .newcolor {
+            color: #0C1C28;
+            font-weight: 600;
+        }
+
+        .secondsec {
+            max-width: 80vw;
+            margin: auto;
+            color: #E0F4FC;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #0C1C28;
+            height: 2.6px;
+            margin: 50px 84px;
+        }
+
+        footer{
+            background-color: #1a1a1a;
+            height: 220px;
+        }
+
+        .footerfirst{
+            color: #E0F4FC;
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footerfirst ul{
+            list-style: none;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Hey there! I'm Kunal.</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Resume/CV</a></li>
+                    <li><a href="/">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Step into my Creative Universe, the Artist Behind the Pixels: <span class="newcolor"><span
+                        id="element"></span></span>
+
+            </div>
+            <div class="rightsec">
+                <img src="4911346_2517866.svg" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsec">
+            <h1>
+                Experience and Expertise
+            </h1>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>kunal's portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>link1</li>
+                    <li>link2</li>
+                    <li>link3</li>
+                    <li>link4</li>
+                </ul>
+            </div>
+            <div class="footerthird"></div>
+            <div class="footerfourth"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphic Designer🎨', '3D VFX Maestro✨', 'Cinematographer 🎥', 'UI/UX Architect🌟'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
